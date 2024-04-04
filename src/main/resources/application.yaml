@@ -1,0 +1,17 @@
+logging:
+  level:
+    root: INFO
+    com:
+      example: DEBUG
+mongodb:
+  uri: mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_HOST}/?retryWrites=true&w=majority&appName=${MONGO_APP_NAME}
+  database: ${MONGO_DB}
+openai:
+  api:
+    key: ${OPENAI_KEY}
+    url: ${OPENAI_URL:https://api.openai.com}
+server:
+  port: 8585
+spring:
+  application:
+    name: movie-service
