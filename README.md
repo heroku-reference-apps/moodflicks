@@ -1,4 +1,4 @@
-# Moodflicks - MongoDB Atlas for Vector Search with a React UI
+# Moodflicks - Sample App for MongoDB Atlas Vector Search with a React UI
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
